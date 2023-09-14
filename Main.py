@@ -1,14 +1,15 @@
 import random
-import csv
+import tsv
 import operator
 from collections import OrderedDict
 
 def main():
-    file_name = "powerball.csv"
-    date = input("Pick a date ranging from December of 2022 until September 2023:")
-    pastNumbers = read_in_pastNumbers(file_name)
-    pastNumbers_arrays = analyze_pastNumbers(pastNumbers)
+    file_name = "key:valueDB.tsv"
+    date = input("Pick a date ranging from January 1 of 2022 - Present:")
+    pastNumbers = (Key:Value.tsv)
+    pastNumbers = read_in_pastNumbers(Key:Value.tsv)
+    pastNumbers = analyze_pastNumbers(Key:Value.tsv)
 
     # Retrieve the numbers for the selected date
-    selected_numbers = pastNumbers_arrays[date]
+    selected_numbers = pastNumbers[date]
     print(f"The win
