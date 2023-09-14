@@ -1,7 +1,21 @@
-# PredictMO_lotto.py
-Lotto/Powerball predictions from previous winnings in Missouri
+# MO Lottery Predictor (Powerball)
+Powerball predictions based on last 15 winning numbers in Missouri.
+Will output the required 
+<p>To check the winning numbers for a specific date enter the date in the format</p>
+<strong>Month-Day-Year</strong>
+ 
+  <em>September 9, 2023</em>
 
 
-To check the winning numbers for a specific date, 
-enter the date in the format "Month Day, Year" (e.g. "September 9, 2023"). 
-Then, use the `read_in_pastNumbers` function to read in the past winning numbers from the TSV file, and the `analyze_pastNumbers` function to analyze the data and retrieve the numbers for the selected date. Here's an example code snippet
+Then, use the
+
+````python
+read_in_pastNumbers
+````
+
+_function to read in the past winning numbers from the TSV file, and the function to analyze the data and retrieve the numbers for the selected date. 
+
+````python
+analyze_pastNumbers
+````
+ _The lotto generator strategy used was analyzing past numbers to predict a set of 6 numbers & if played A Powerball (PB) & Powerplay (PP) alongside some numbers that hasnt been played in awhile_ 
